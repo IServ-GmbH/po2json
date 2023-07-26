@@ -5,7 +5,7 @@ var po2json = require('../'),
   assert = require('assert'),
   argv = process.argv;
 
-var opts = require("nomnom")
+var opts = require("nomnom-patched")
   .script('po2json')
   .option('pretty', {
     abbr: 'p',
